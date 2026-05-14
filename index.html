@@ -38,7 +38,7 @@
   <header class="header" id="header">
     <div class="container header__inner">
       <a href="#inicio" class="header__brand">
-        <img src="assets/img/logo.png" alt="Logo Verónica Flor">
+        <img src="assets/img/logo.png" alt="Logo Verónica Flor" width="40" height="40">
         Verónica Flor
       </a>
 
@@ -82,7 +82,7 @@
         </div>
 
         <div class="hero__visual">
-          <img src="assets/img/logo.png" alt="Verónica Flor Logo" class="hero__logo-img">
+          <img src="assets/img/logo.png" alt="Verónica Flor Logo" class="hero__logo-img" width="420" height="420" fetchpriority="high">
         </div>
 
       </div>
@@ -95,7 +95,7 @@
         <div class="about__image-wrapper">
           <div class="about__image">
             <img src="assets/img/veronica-portrait.png" alt="Verónica Flor — Abogada especialista en Derecho de Familia"
-              loading="lazy">
+              width="600" height="800" fetchpriority="high">
           </div>
           <div class="about__image-accent"></div>
         </div>
@@ -525,10 +525,9 @@
   </a>
 
   <!-- EmailJS SDK -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
 
-  <script src="script.js"></script>
-
+  <script src="script.js" defer></script>
 </body>
 
 </html>
